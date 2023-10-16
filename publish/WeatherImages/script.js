@@ -1,7 +1,6 @@
 //Here I declred search input and button.
 const searchInput = document.querySelector('.search input');
-const searchBtn = document.querySelector('.search button');
-const searchBtn = document.querySelector('.search button');
+const searchBtn = document.querySelector('.search button')
 
 async function getWeather(city) {
     var res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d03e2854a891e07b0aa41324f9780644&units=metric`);
